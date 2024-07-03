@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>PORTFOLIO</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="./assets/icons.svg/moon.svg"
+            alt="icon theme"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div
+          data-color="hsl(214, 84%, 56%)"
+          class="colors__item colors__item--blue"
+        ></div>
+
+        <div
+          data-color="hsl(150, 84%, 56%)"
+          class="colors__item colors__item--green"
+        ></div>
+
+        <div
+          data-color="hsl(276, 84%, 56%)"
+          class="colors__item colors__item--purple"
+        ></div>
+
+        <div
+          data-color="hsl(46, 84%, 56%)"
+          class="colors__item colors__item--orange"
+        ></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./assets/images.jgp/miperfil.jpg" alt="perfil" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">FranciscoDesings</h2>
+            <p class="card__subtitle">Estudiante THEPOWER</p>
+          </div>
+          <div class="car__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="jesusgonzalezvergara@hotmail.com"
+                >francisco@hotmail.com</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:12345678">+34-12345678</a>
+            </div>
+            <p class="card__text">
+              Mas de 25 años como empresario en el sector del mobiliario y
+              decoracion, pero desde hace 4 meses estoy estudiando un Master en
+              programacion en la empresa THE POWER, siempre he destacado por mi
+              constancia y cumplir mis objetivos, ahora me he marcado este y
+              espero estar a la altura de lo que se me pide
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">FRONT END</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JAVASCRIPT</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+            <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">REACT</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">DESIGN</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photshop</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrador</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+         </article>
+        <article class="card">
+          <h2 class="card__title">MULTIMEDIA</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">After Effects</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Premiere</p>
+              <div class="skills__bar skills__bar--60"></div>
+          
+            </div>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
