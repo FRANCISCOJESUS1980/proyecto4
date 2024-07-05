@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "rol": "Estudiante THEPOWER",
+    "description": "Mas de 20 años en el sector del Mobiliario. Pero un apasionado de las nuevas tecnologias y decidido a aprender todo lo que puedan enseñarme mas lo que pueda aprender yo por mi cuenta, y lo que me gustaria hacer es ser frelance e investigar y hacer proyectos por mi cuenta"
+  },
+  "experience": {
+    "first-job-title": "Repartidor tienda muebles",
+    "first-job-date": "Enero 1994 - Marzo 1997",
+    "first-job-description": "llevar a la casa del cliente sus compras y montarlas",
+    "second-job-title": "Dependiente tienda muebles",
+    "second-job-date": "Marzo 1997 - Mayo 2000",
+    "second-job-description": "Atender a los clientes y asesorarles para comprar",
+    "last-job-title": "Gerente tienda muebles",
+    "last-job-date": "Mayo 2000 - Hasta Actualidad",
+    "last-job-description": "Gerente y administrador unico de tiendas de Muebles"
+  }
+}

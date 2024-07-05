@@ -60,6 +60,20 @@ body.dark {
 .toggle-theme__text {
   font-size: 0.8rem;
 }
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flags__item {
+  width: 30px;
+}
+.flags__img {
+  cursor: pointer;
+  display: block;
+}
+
 .colors {
   display: flex;
   justify-content: space-between;
