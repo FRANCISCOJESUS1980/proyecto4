@@ -60,19 +60,6 @@ body.dark {
 .toggle-theme__text {
   font-size: 0.8rem;
 }
-.flags {
-  width: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.flags__item {
-  width: 30px;
-}
-.flags__img {
-  cursor: pointer;
-  display: block;
-}
 
 .colors {
   display: flex;
@@ -131,6 +118,9 @@ body.dark {
   padding: 1em;
   background-color: var(--bg-card-color);
   border-radius: var(--border-radius);
+}
+.card--hobbies {
+  border: 2px solid var(--primary-color);
 }
 .card__image {
   height: 100%;
